@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+<canvas id="heartCanvas"></canvas>
+
+<div class="container">
+  <div class="glass">
+    <h1 id="title"></h1>
+    <p id="subtitle"></p>
+    <div class="hint">Click to continue… waa</div>
+    <button id="replayBtn">Replay</button>
+    <button id="musicBtn">🔊 Music</button>
+  </div>
+</div>
+
+<!-- ✅ LOCAL MUSIC FILE -->
+<audio id="music" loop preload="auto">
+  <source src="./music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
